@@ -3,12 +3,12 @@ function capitalizeFirstLetter([first, ...others]) {
   return str.replace(/,/gi, "");
 }
 
-function firstToUpperCase(letter){
-  return letter.toUpperCase()
+function toUpperCase(str){
+  return str.toUpperCase()
 }
 
 function regexCapitalizeFirstLetter(str){
-  return str.replace(/^(?<first>\w)/g, firstToUpperCase)
+  return str.replace(/^(?<first>\w)/g, toUpperCase)
 }
 
 const arr = ["h", "e", "l", "p"];
