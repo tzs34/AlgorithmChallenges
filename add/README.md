@@ -1,4 +1,3 @@
-### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
 
 ---
 1. Write a function that returns the sum of two numbers.
